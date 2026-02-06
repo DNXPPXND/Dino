@@ -142,7 +142,7 @@ const dinoResult = {
 
   triceratops: {
     text: "Triceratops — ผู้ปกป้อง มั่นคง",
-    img: "images/triceratops.png",
+    img: "images/triceratops_2.png",
     desc: `
 <p class="result-note">
 คุณเป็นคนที่ยืนหยัดในคุณค่าของความมั่นคง
@@ -173,7 +173,7 @@ const dinoResult = {
 
   raptor: {
     text: "Velociraptor — ฉลาด ว่องไว",
-    img: "images/raptor.png",
+    img: "images/velociraptor.png",
     desc: `
 <p class="result-note">
 คุณเป็นคนคิดไว มองสถานการณ์ได้เฉียบคม
@@ -513,3 +513,4 @@ function showResult() {
     ${dinoResult[winner].desc}
   `;
 }
+
