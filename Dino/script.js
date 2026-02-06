@@ -109,7 +109,7 @@ const quizData = [
 ===================================================== */
 const dinoResult = {
   trex: {
-    text: "Tyrannosaurus Rex — ผู้นำโดยสัญชาตญาณ",
+    text: "Tyrannosaurus Rex — ไทแรนโนซอรัส เร็กซ์",
     img: "images/tyrannosaurus-rex.png",
     desc: `
 <p class="result-note">
@@ -141,7 +141,7 @@ const dinoResult = {
   },
 
   triceratops: {
-    text: "Triceratops — ผู้ปกป้อง มั่นคง",
+    text: "Triceratops — ไทรเซอราทอปส์",
     img: "images/triceratops_2.png",
     desc: `
 <p class="result-note">
@@ -172,7 +172,7 @@ const dinoResult = {
   },
 
   raptor: {
-    text: "Velociraptor — ฉลาด ว่องไว",
+    text: "Velociraptor — เวโลซีแรปเตอร์",
     img: "images/velociraptor.png",
     desc: `
 <p class="result-note">
@@ -202,7 +202,7 @@ const dinoResult = {
   },
 
   brachio: {
-    text: "Brachiosaurus — ใจใหญ่ มองไกล",
+    text: "Brachiosaurus — แบรคิโอซอรัส",
     img: "images/brachiosaurus.png",
     desc: `
 <p class="result-note">
@@ -233,7 +233,7 @@ const dinoResult = {
   },
 
   spino: {
-    text: "Spinosaurus — นักเอาตัวรอด",
+    text: "Spinosaurus — สไปโนซอรัส",
     img: "images/spinosaurus.png",
     desc: `
 <p class="result-note">
@@ -263,7 +263,7 @@ const dinoResult = {
   },
 
   stego: {
-    text: "Stegosaurus — ช้าแต่มั่นคง",
+    text: "Stegosaurus — สเตโกซอรัส",
     img: "images/stegosaurus.png",
     desc: `
 <p class="result-note">
@@ -294,7 +294,7 @@ const dinoResult = {
   },
 
   ankylo: {
-    text: "Ankylosaurus — เกราะเหล็ก",
+    text: "Ankylosaurus — แองคีโลซอรัส",
     img: "images/ankylosaurus.png",
     desc: `
 <p class="result-note">
@@ -325,7 +325,7 @@ const dinoResult = {
   },
 
   parasaur: {
-    text: "Parasaurolophus — นักสื่อสาร",
+    text: "Parasaurolophus — พาราซอโรโลฟัส",
     img: "images/parasaurolophus.png",
     desc: `
 <p class="result-note">
@@ -354,10 +354,10 @@ const dinoResult = {
 `
   },
 
- pterosaurus: {
-  text: "Pterosaurus — นักมองไกล",
-  img: "images/pterosaurus.png",
-  desc: `
+  pterosaurus: {
+    text: "Pterosaurus — เทอโรซอรัส",
+    img: "images/pterosaurus.png",
+    desc: `
 <p class="result-note">
 คุณเป็นคนที่มองโลกจากมุมสูง
 เห็นภาพรวมและทิศทางได้ชัด
@@ -386,11 +386,10 @@ const dinoResult = {
 เกิดขึ้นได้จริงมากขึ้น
 </p>
 `
-},
-
+  },
 
   allo: {
-    text: "Allosaurus — นักล่าอิสระ",
+    text: "Allosaurus — อโลซอรัส",
     img: "images/allosaurus.png",
     desc: `
 <p class="result-note">
@@ -420,8 +419,6 @@ const dinoResult = {
 `
   }
 };
-
-
 /* =====================================================
    LOGIC
 ===================================================== */
