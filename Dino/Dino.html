@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>ไดโนเสาร์ภายในตัวคุณ</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+      </div>
+
+      <div id="intro" class="fade-in">
+        <div class="emoji-hero">
+          <img src="images/Dino.png" alt="Dino" class="dino-img animate-dino" />
+        </div>
+        <h1 class="game-title">ไดโนเสาร์ภายในตัวคุณ</h1>
+        <p class="intro-text">ตัวตนแท้จริงของคุณในยุคดึกดำบรรพ์ของคุณผ่าน 10 คำถาม</p>
+        <button id="startBtn">เริ่มการทดสอบ</button>
+      </div>
+
+      <div id="quiz-section" style="display: none">
+        <div id="quiz"></div>
+        <button id="nextBtn" disabled>ถัดไป</button>
+      </div>
+
+      <div id="result-section" style="display: none">
+        <div id="result-content"></div>
+        <button onclick="location.reload()" class="retry-btn">
+          เล่นอีกครั้ง 🔄
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
