@@ -326,7 +326,7 @@ const dinoResult = {
 
   parasaur: {
     text: "Parasaurolophus — นักสื่อสาร",
-    img: "images/"parasaurolophus.png",
+    img: "images/parasaurolophus.png",
     desc: `
 <p class="result-note">
 คุณเป็นคนอ่อนโยนและเข้าถึงง่าย
@@ -513,5 +513,3 @@ function showResult() {
     ${dinoResult[winner].desc}
   `;
 }
-
-
